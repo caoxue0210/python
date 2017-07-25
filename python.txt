@@ -56,6 +56,7 @@ import就是将模块导入，并授予访问文件的权限。import仅执行�
 
 >>>exec(open('script1').read())
 下面是一段python程序代码：
+```
 #！/usr/bin/python
 
 s = "hello"
@@ -78,4 +79,4 @@ for x in d:
 for k,v in d.items():
     print k
     print v
-
+```
